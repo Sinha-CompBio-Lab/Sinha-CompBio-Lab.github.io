@@ -1,7 +1,7 @@
-[---
+---
 permalink: /
 title: "SinhaLab"
-excerpt: "Machine Learning Methods to understand Aging"
+excerpt: "Computational methods to understand and prevent aging"
 author_profile: true
 redirect_from: 
   - /about/

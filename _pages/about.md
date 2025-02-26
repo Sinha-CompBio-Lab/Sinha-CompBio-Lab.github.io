@@ -7,31 +7,63 @@ redirect_from:
   - /about/
   - /about.html
 ---
-# Welcome to SinhaLab
+---
+permalink: /
+title: "SinhaLab"
+excerpt: "Computational methods to understand and prevent aging"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
 
-We build computational methods to better understand the fundamental process of aging and use it to prevent aging.
+<div style="text-align: center; margin-bottom: 30px;">
+  <h1>Understanding Aging through Computational Biology</h1>
+</div>
 
-## Our Research Focus
+## Welcome to SinhaLab
 
-At SinhaLab, our central goal is to understand the fundamental process of aging using big data and advanced machine learning approaches. We develop novel computational methods to analyze how tissues age and identify potential interventions to prevent age-related decline.
-Our current research focuses on leveraging high-resolution tissue pathology images available at scale to establish the principles of how different tissue architectures deteriorate over time. We use these images to identify molecular regulators through multi-omics approaches, assess lifestyle and genetic risk factors from electronic health records, and develop methods to detect aging signatures from blood samples.
-Our Approach
-We apply and develop cutting-edge computer vision and deep learning techniques to extract meaningful biological insights from tissue images. Our lab has pioneered several innovative methods, including:
+We build computational methods to better understand the fundamental process of aging and develop strategies to prevent age-related decline.
 
-TLPath: A computational approach to determine bulk-telomere length from standard histopathology images, providing new insights into cellular aging mechanisms
-Multi-modal learning architectures: Novel frameworks that integrate transcriptomics with imaging data to enhance the detection of age-related tissue changes
+<div style="border-left: 4px solid #5585B5; padding-left: 15px; margin: 20px 0;">
+Our lab pioneered new computational approaches that can characterize tissue aging using routine clinical data, offering unprecedented insights into the biological mechanisms of aging.
+</div>
 
-Our interdisciplinary approach combines computational biology, machine learning, and biomedical imaging to address complex questions about the aging process that weren't previously accessible through traditional methods.
+## Our Mission
+
+At SinhaLab, our central goal is to understand the fundamental process of aging using big data and advanced machine learning approaches. We leverage multiple data types from image to multi-omics to electronic health records to develop a comprehensive view of tissue aging.
+
+## Research Focus
+
+Our current research focuses on three key areas:
+
+<div class="row" style="display: flex; margin-top: 20px; margin-bottom: 40px;">
+  <div class="col-md-4" style="flex: 1; padding: 0 10px;">
+    <h3>Tissue Architecture Aging</h3>
+    <p>We leverage high-resolution pathology images available at scale to establish principles of how different tissues deteriorate with age.</p>
+  </div>
+  <div class="col-md-4" style="flex: 1; padding: 0 10px;">
+    <h3>Molecular Regulators</h3>
+    <p>We identify the molecular drivers of aging through integrated multi-omics approaches to find potential intervention targets.</p>
+  </div>
+  <div class="col-md-4" style="flex: 1; padding: 0 10px;">
+    <h3>Risk & Detection</h3>
+    <p>We assess lifestyle and genetic risk factors from electronic health records and develop methods to detect aging signatures from blood.</p>
+  </div>
+</div>
+
+## Our Innovations
+
+Our lab has pioneered several innovative computational methods:
+
+- **TLPath**: A deep learning framework that determines bulk-telomere length from standard histopathology images, providing insights into cellular aging mechanisms
+- **Multi-modal Learning Architectures**: Novel approaches integrating transcriptomics with imaging data to enhance detection of age-related tissue changes
+
+Our interdisciplinary approach combines computational biology, machine learning, and biomedical imaging to address complex questions about aging that weren't accessible through traditional methods.
 
 ## Our Team
-We are a diverse team comprising expertise spanning machine learning, bioengineering, computer vision, and omics analysis:
-Dr. Mudra Choudhary (Computational Biologist) focuses on applying computational methodologies and machine learning techniques to unravel the complex relationship between aging and tissue architecture using multi-omics data.
-Sanmi Adileye (NSF Graduate Research Fellow) brings expertise in computer science and robotics, applying advanced computational approaches to analyze complex biological datasets and develop new methodologies.
-Anamika Yadav (Research Assistant) contributes to our open-source development efforts and applies her machine learning expertise to extract meaningful patterns from large-scale biological datasets.
-Kyle Alvarez (LEAP Fellow in AI & Therapeutics) specializes in developing and utilizing advanced tools for analyzing complex biological datasets, integrating machine learning with bioinformatics to enhance our research capabilities.
-Ranjit Kumar Sinha (Research Associate) leverages his industry experience and expertise in data science, statistical analysis, and Python programming to develop computational tools for aging research.
 
-Through our innovative computational approaches, SinhaLab aims to estabish the principle of the aging process.
+We are a diverse team with expertise spanning machine learning, bioengineering, computer vision, and omics analysis. [Meet our full team →](/team/)
 
 ## Lab Affiliations
 
@@ -39,3 +71,9 @@ Through our innovative computational approaches, SinhaLab aims to estabish the p
 - Member, Center for Data Sciences
 - Member, Center for Therapeutics Discovery
 - NCI-Designated Cancer Center
+
+<div style="text-align: center; margin-top: 40px; margin-bottom: 20px;">
+  <a href="/research/" class="btn btn--primary">Explore Our Research</a>
+  <a href="/publications/" class="btn btn--primary">View Publications</a>
+  <a href="/contact/" class="btn btn--primary">Contact Us</a>
+</div>

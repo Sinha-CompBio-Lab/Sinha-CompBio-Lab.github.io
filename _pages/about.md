@@ -7,15 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
----
-permalink: /
-title: "SinhaLab"
-excerpt: "Computational methods to understand and prevent aging"
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
----
+
 
 <div style="text-align: center; margin-bottom: 30px;">
   <h1>Understanding Aging through Computational Biology</h1>

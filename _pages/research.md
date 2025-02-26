@@ -7,20 +7,36 @@ author_profile: true
 
 ## Our Research Focus
 
-At SinhaLab, we build computational methods to better understand the fundamental process of aging and use it to prevent aging.
+At SinhaLab, our central goal is to understand the process of aging using big data via Machine Learning. We build computational methods to better understand the fundamental mechanisms of aging and develop strategies to prevent age-related decline.
 
-### Tissue Aging Detection
-
-We discovered that normal tissue aging can be captured with no training using high resolution tissue images (H&E). This breakthrough allows for non-invasive assessment of tissue age.
+Our current focus is to use high-resolution tissue pathology images available at scale to establish the principles of how different tissues architecture are deteriorating (from images), identify its molecular regulators (multi-omics), lifestyle and genetic risks (EHR) and detect it from blood.
 
 ![Tissue Aging](/images/tissue-aging-placeholder.jpg)
 
-### Telomere Length Analysis
+## Our Approaches
 
-Our lab has developed novel deep learning frameworks that can determine telomere length of tissue using mere tissue images. This innovation offers new insights into cellular aging mechanisms.
+We apply and develop novel computer vision techniques to extract meaningful biological insights from tissue images. Our lab has pioneered several innovative methods:
 
-### Current Projects
+### TLPath: Telomere Length Analysis
 
-- Developing AI models to predict biological age from tissue samples
-- Creating computational tools to identify aging biomarkers
-- Exploring the relationship between telomere dynamics and tissue function
+Our lab has developed deep learning frameworks that can determine bulk-telomere length from histopathology images. This innovation offers new insights into cellular aging mechanisms without requiring specialized telomere assays.
+
+### Multi-modal Deep Learning Architecture
+
+We've developed a novel two-step deep learning architecture guided by transcriptomics for enhanced tissue analysis. This approach integrates imaging data with genomic information to provide richer insights into aging processes than either data type alone could offer.
+
+## Current Projects
+
+- **Tissue Aging Detection**: We've discovered that normal tissue aging can be captured with no training using high-resolution H&E tissue images
+
+- **Molecular Regulators of Aging**: Identifying key pathways involved in tissue deterioration through integrated analysis of imaging and multi-omics data
+
+- **Aging Biomarkers in Blood**: Developing computational methods to detect aging signatures from routine blood tests
+
+- **Individual Aging Variability**: Analyzing lifestyle and genetic factors that contribute to differences in aging rates
+
+## Our Team
+
+We are a diverse team comprising expertise spanning machine learning, bioengineering, computer vision, and omics analysis. Our interdisciplinary approach allows us to address complex questions about the aging process that weren't previously accessible through traditional methods.
+
+[Meet our team members →](/team/)

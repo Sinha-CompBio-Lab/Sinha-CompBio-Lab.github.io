@@ -1,4 +1,4 @@
-<img width="486" alt="SanjuSinha_websitePhoto" src="https://github.com/user-attachments/assets/8bf792d4-7b1d-4e42-875e-f5edc5b33df4" />---
+---
 layout: archive
 title: "Team"
 permalink: /team/
@@ -11,7 +11,7 @@ We are a diverse team comprising expertise spanning machine learning, bioenginee
 ### Dr. Sanju Sinha
 **Assistant Professor, Cancer Metabolism and Microenvironment Program**
 
-![Dr. Sanju Sinha](/images/SanjuSinha_websitePhoto.png)
+![Dr. Sanju Sinha](SanjuSinha_websitePhoto.png)
 
 Dr. Sanju Sinha leads our lab's research on computational methods to understand aging. He earned his PhD in Computational Biology from the University of Maryland and National Cancer Institute, with a background in Bioengineering and Computer Science from the Indian Institute of Technology, Guwahati.
 

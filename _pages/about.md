@@ -32,24 +32,25 @@ Our current research focuses on three key areas:
 <div class="row" style="display: flex; margin-top: 20px; margin-bottom: 40px;">
   <div class="col-md-4" style="flex: 1; padding: 0 10px;">
     <h3>Tissue Architecture Aging</h3>
-    <p>We leverage high-resolution pathology images available at scale to establish principles of how different tissues deteriorate with age.</p>
+    <p>Establish principles of how different tissues deteriorate with age and its molecular regulators.</p>
   </div>
   <div class="col-md-4" style="flex: 1; padding: 0 10px;">
-    <h3>Molecular Regulators</h3>
-    <p>We identify the molecular drivers of aging through integrated multi-omics approaches to find potential intervention targets.</p>
+    <h3>Aging and Cancer</h3>
+    <p>Breakdown how aging tissues transform to form a tumor beyond mutations. </p>
   </div>
   <div class="col-md-4" style="flex: 1; padding: 0 10px;">
-    <h3>Risk & Detection</h3>
-    <p>We assess lifestyle and genetic risk factors from electronic health records and develop methods to detect aging signatures from blood.</p>
+    <h3>Digital Pathology</h3>
+    <p>Developing tools to use rich high-resolution tumor and non-tumor histopathology images.</p>
   </div>
 </div>
 
 ## Our Innovations
 
-Our lab has pioneered several innovative computational methods:
+Our lab has pioneered the below few computational methods.
 
-- **TLPath**: A deep learning framework that determines bulk-telomere length from standard histopathology images, providing insights into cellular aging mechanisms
-- **Multi-modal Learning Architectures**: Novel approaches integrating transcriptomics with imaging data to enhance detection of age-related tissue changes
+- ecPath: We deomstrated for the first time ecDNA can be detected from histopathology images using ecPath - a multimodal deep learning using both images and expression.
+- PERCEPTION: First computational framework to choose cancer patient using their rich single cell rna-seq for kinase targeted therapies.
+- DeepTarget: A method to find direct and indirect targets of cancer drugs driving their vitro killing.
 
 Our interdisciplinary approach combines computational biology, machine learning, and biomedical imaging to address complex questions about aging that weren't accessible through traditional methods.
 

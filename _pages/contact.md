@@ -18,5 +18,4 @@ We are located at the Sanford Burnham Prebys Medical Discovery Institute in La J
 ### Lab Address
 Building 12, Sanford Burnham Prebys Medical Discovery Institute  
 10901 North Torrey Pines Road  
-La Jolla, CA 92037  
-USA
+La Jolla, CA 92037, USA

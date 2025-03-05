@@ -10,30 +10,27 @@ author_profile: true
     margin-bottom: 40px;
   }
   
-  .publication-theme {
-    padding: 15px;
-    background-color: #f5f5f5;
-    border: 1px solid #e0e0e0;
-    border-radius: 8px;
-    margin-bottom: 20px;
-  }
-  
-  .publication-theme h2 {
-    margin-top: 0;
+  .section-heading {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 25px;
     color: #333;
   }
   
   .publication-item {
-    margin-bottom: 15px;
-    padding: 15px;
-    border: 1px solid #e0e0e0;
-    border-radius: 8px;
-    background-color: #f9f9f9;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  
+  .publication-item:last-child {
+    border-bottom: none;
   }
   
   .publication-title {
     font-weight: 600;
     margin-bottom: 5px;
+    color: #222;
   }
   
   .author-highlight {
@@ -47,38 +44,33 @@ author_profile: true
   
   .pub-year {
     display: inline-block;
-    padding: 2px 8px;
-    background-color: #eee;
-    border-radius: 10px;
-    font-size: 0.8em;
     margin-left: 5px;
+    color: #666;
   }
   
   .scholar-link {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
   }
   
-  .scholar-link a {
+  .scholar-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #f5f5f5;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
     color: #333;
     text-decoration: none;
-    border-radius: 4px;
-    border: 1px solid #e0e0e0;
     font-weight: 500;
   }
   
-  .scholar-link a:hover {
-    background-color: #eaeaea;
+  .scholar-button:hover {
+    background-color: #f9f9f9;
   }
 </style>
 
 <div class="publication-section">
-  <div class="publication-theme">
-    <h2>Precision Medicine & Computational Biology</h2>
-  </div>
+  <h2 class="section-heading">Precision Medicine & Computational Biology</h2>
   
   <div class="publication-item">
     <div class="publication-title">PERCEPTION predicts patient response and resistance to treatment using single-cell transcriptomics of their tumors</div>
@@ -97,9 +89,7 @@ author_profile: true
 </div>
 
 <div class="publication-section">
-  <div class="publication-theme">
-    <h2>Genomic Editing & Cancer Mutations</h2>
-  </div>
+  <h2 class="section-heading">Genomic Editing & Cancer Mutations</h2>
   
   <div class="publication-item">
     <div class="publication-title">A systematic genome-wide mapping of oncogenic mutation selection during CRISPR-Cas9 genome editing</div>
@@ -108,9 +98,7 @@ author_profile: true
 </div>
 
 <div class="publication-section">
-  <div class="publication-theme">
-    <h2>Patient Stratification Technologies</h2>
-  </div>
+  <h2 class="section-heading">Patient Stratification Technologies</h2>
   
   <div class="publication-item">
     <div class="publication-title">Synthetic lethality-mediated precision oncology via the tumor transcriptome</div>
@@ -129,9 +117,7 @@ author_profile: true
 </div>
 
 <div class="publication-section">
-  <div class="publication-theme">
-    <h2>Tumor Mutation Burden & Immunotherapy</h2>
-  </div>
+  <h2 class="section-heading">Tumor Mutation Burden & Immunotherapy</h2>
   
   <div class="publication-item">
     <div class="publication-title">Immune determinants of the association between tumor mutational burden and immunotherapy response across cancer types</div>
@@ -145,9 +131,7 @@ author_profile: true
 </div>
 
 <div class="publication-section">
-  <div class="publication-theme">
-    <h2>Immunotherapy & Liquid Biopsies</h2>
-  </div>
+  <h2 class="section-heading">Immunotherapy & Liquid Biopsies</h2>
   
   <div class="publication-item">
     <div class="publication-title">Predicting tumor immune microenvironment and checkpoint therapy response of head & neck cancer patients from blood immune single-cell transcriptomics</div>
@@ -161,9 +145,7 @@ author_profile: true
 </div>
 
 <div class="publication-section">
-  <div class="publication-theme">
-    <h2>Cancer Disparities Research</h2>
-  </div>
+  <h2 class="section-heading">Cancer Disparities Research</h2>
   
   <div class="publication-item">
     <div class="publication-title">Higher prevalence of homologous recombination deficiency in tumors from African Americans versus European Americans</div>
@@ -182,5 +164,5 @@ author_profile: true
 </div>
 
 <div class="scholar-link">
-  <a href="https://scholar.google.com/citations?user=XXXXXXXXXXXX" target="_blank">View Complete Publication List on Google Scholar</a>
+  <a href="https://scholar.google.com/citations?user=XXXXXXXXXXXX" target="_blank" class="scholar-button">View Complete Publication List on Google Scholar</a>
 </div>

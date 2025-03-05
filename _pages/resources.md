@@ -80,7 +80,7 @@ author_profile: true
 </div>
 
 <div class="section">
-  <h2>Machine Learning Resources for Aging Research</h2>
+  <h2>Machine Learning Resources </h2>
   <p>Our lab develops and curates computational resources to advance aging research. Here are some key resources:</p>
   
   <div class="resource-card">

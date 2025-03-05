@@ -96,27 +96,6 @@ author_profile: true
 
 <div class="publication-section">
   <div class="publication-theme">
-    <h2>🔬 Cancer Disparities Research</h2>
-  </div>
-  
-  <div class="publication-item">
-    <div class="publication-title">Higher prevalence of homologous recombination deficiency in tumors from African Americans versus European Americans</div>
-    <div><span class="author-highlight">Sinha, S.</span>, Mitchell, K.A., Zingone, A., et al. <span class="journal">Nature Cancer</span> <span class="pub-year">2020</span></div>
-  </div>
-  
-  <div class="publication-item">
-    <div class="publication-title">A comprehensive map of alternative polyadenylation in African American and European American lung cancer patients</div>
-    <div>Zingone, A., <span class="author-highlight">Sinha, S.</span>, Ante, M., et al. <span class="journal">Nature Communications</span> <span class="pub-year">2021</span></div>
-  </div>
-  
-  <div class="publication-item">
-    <div class="publication-title">Recurrent PTPRT/JAK2 mutations in lung adenocarcinoma among African Americans</div>
-    <div>Mitchell, K.A., Nichols, N., Tang, W., ... <span class="author-highlight">Sinha, S.</span>, et al. <span class="journal">Nature Communications</span> <span class="pub-year">2019</span></div>
-  </div>
-</div>
-
-<div class="publication-section">
-  <div class="publication-theme">
     <h2>🧪 Genomic Editing & Cancer Mutations</h2>
   </div>
   
@@ -178,6 +157,28 @@ author_profile: true
     <div>Wu, V.H., Yung, B.S., Faraji, F., ... <span class="author-highlight">Sinha, S.</span>, et al. <span class="journal">Nature Immunology</span> <span class="pub-year">2023</span></div>
   </div>
 </div>
+
+<div class="publication-section">
+  <div class="publication-theme">
+    <h2>🔬 Cancer Disparities Research</h2>
+  </div>
+  
+  <div class="publication-item">
+    <div class="publication-title">Higher prevalence of homologous recombination deficiency in tumors from African Americans versus European Americans</div>
+    <div><span class="author-highlight">Sinha, S.</span>, Mitchell, K.A., Zingone, A., et al. <span class="journal">Nature Cancer</span> <span class="pub-year">2020</span></div>
+  </div>
+  
+  <div class="publication-item">
+    <div class="publication-title">A comprehensive map of alternative polyadenylation in African American and European American lung cancer patients</div>
+    <div>Zingone, A., <span class="author-highlight">Sinha, S.</span>, Ante, M., et al. <span class="journal">Nature Communications</span> <span class="pub-year">2021</span></div>
+  </div>
+  
+  <div class="publication-item">
+    <div class="publication-title">Recurrent PTPRT/JAK2 mutations in lung adenocarcinoma among African Americans</div>
+    <div>Mitchell, K.A., Nichols, N., Tang, W., ... <span class="author-highlight">Sinha, S.</span>, et al. <span class="journal">Nature Communications</span> <span class="pub-year">2019</span></div>
+  </div>
+</div>
+
 
 <div class="scholar-link">
   <a href="https://scholar.google.com/citations?user=XXXXXXXXXXXX" target="_blank">View Complete Publication List on Google Scholar</a>

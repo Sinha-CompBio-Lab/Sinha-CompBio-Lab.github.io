@@ -5,7 +5,9 @@ permalink: /resources/
 author_profile: true
 ---
 
-{% include toc %}
+<!-- Main content container -->
+<div class="main-content-container">
+
 
 ## Overview
 
@@ -81,9 +83,15 @@ Interested in collaborating or need assistance with any of these resources? [Con
 
 <!-- CSS for styling resource cards and grids -->
 <style>
+.main-content-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .tool-grid, .resource-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   gap: 2rem;
   margin: 2rem 0;
 }
@@ -125,3 +133,5 @@ Interested in collaborating or need assistance with any of these resources? [Con
   }
 }
 </style>
+
+</div> <!-- End of main-content-container -->

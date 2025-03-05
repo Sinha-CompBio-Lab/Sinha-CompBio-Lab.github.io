@@ -3,16 +3,15 @@ layout: single
 title: "Deep-Dive into DINO-Foresight"
 date: 2025-03-05
 categories:
-Research
-AI
-tags
-deep learning
-computer vision
-video prediction
-transformer models
-computational biology
+  - Research
+  - AI
+tags:
+  - deep learning
+  - computer vision
+  - video prediction
+  - transformer models
+  - computational biology
 ---
-
 A deep dive to understand DINO-Foresight: Next-Frame prediction breakthrough from Meta. We will cover its technical innovation- factorized transformer, how image embeddings improved during next-frame learning, and, masked features transformer.
 
 Why should anyone care? Next frame prediction is a general-purpose problem extendable across fields and data modalities, eg. how tissues may age given a few sequence images/omics?, and breakthroughs here will help across the board.

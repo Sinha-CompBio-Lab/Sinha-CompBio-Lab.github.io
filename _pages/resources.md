@@ -81,34 +81,34 @@ author_profile: true
 
 <div class="section">
   <h2>Machine Learning Resources </h2>
-  <p>Our lab develops and curates computational resources to advance aging research. Here are some key resources:</p>
+  <p>Our lab develops and curates computational resources to advance cancer and aging research. Here are some key resources:</p>
   
   <div class="resource-card">
-    <h3>Big Data Resources in Cancer & Aging Research</h3>
-    <p>We've compiled a comprehensive list of datasets, tools, and resources for researchers studying cancer and aging. These resources span genomics, transcriptomics, proteomics, and imaging data repositories.</p>
+    <h3>Big Data Resources in Cancer Research</h3>
+    <p>We've compiled a comprehensive list of datasets, tools, and resources for researchers studying cancer. These resources span genomics, transcriptomics, proteomics, and imaging data repositories.</p>
     <a class="external-link" href="https://x.com/Sanjusinha7/status/1570729265519546368" target="_blank">View Resources →</a>
   </div>
   
   <div class="resource-card">
     <h3>Computational Methods for Spatial Transcriptomics</h3>
-    <p>Spatial transcriptomics is revolutionizing our understanding of tissue biology and aging. We've assembled guides and tools to help researchers get started with spatial transcriptomics techniques.</p>
+    <p>Spatial transcriptomics is revolutionizing our understanding of tissue biology. We've assembled guides and tools to help researchers get started with spatial transcriptomics techniques.</p>
     <a class="external-link" href="https://x.com/Sanjusinha7/status/1578434020643205120" target="_blank">Learn More →</a>
   </div>
   
   <div class="resource-card">
     <h3>Computational Methods to Probe the Immune System</h3>
-    <p>The immune system plays a critical role in aging. We've created a collection of computational methods specifically designed for analyzing immune system dynamics.</p>
+    <p>The immune system plays a critical role in cancer. We've created a collection of computational methods specifically designed for analyzing immune system dynamics.</p>
     <a class="external-link" href="https://x.com/Sanjusinha7/status/1576306476041515008" target="_blank">Explore Methods →</a>
   </div>
   
   <div class="resource-card">
     <h3>Machine Learning for Biomedical Research</h3>
-    <p>We've developed a guide to help researchers implement machine learning approaches in biomedical studies, with a focus on applications in aging research.</p>
+    <p>We've developed a guide to help researchers learn machine learning for a starter.</p>
     <a class="external-link" href="https://x.com/Sanjusinha7/status/1589735781736001536" target="_blank">View ML Resources →</a>
   </div>
   
   <div class="resource-card">
-    <h3>Open Questions in Aging Research</h3>
+    <h3>Open Questions in Caner and Aging Research</h3>
     <p>We've identified key unsolved questions at the intersection of aging and cancer that represent exciting opportunities for computational biologists.</p>
     <a class="external-link" href="https://x.com/Sanjusinha7/status/1575529608174108672" target="_blank">Explore Open Questions →</a>
   </div>

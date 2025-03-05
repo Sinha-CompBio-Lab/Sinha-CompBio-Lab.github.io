@@ -3,10 +3,9 @@ layout: single
 title: "Deep-Dive into DINO-Foresight"
 date: 2025-03-05
 categories:
-
 Research
 AI
-tags:
+tags
 deep learning
 computer vision
 video prediction

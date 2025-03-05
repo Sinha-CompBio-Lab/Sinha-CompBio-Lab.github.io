@@ -13,14 +13,14 @@ We are a diverse team comprising expertise spanning machine learning, bioenginee
 
 <img src="/images/SanjuSinha_websitePhoto.png" width="400" height="auto" alt="Dr. Sanju Sinha">
 
-Dr. Sanju Sinha leads our lab's research on computational methods to understand aging. He earned his PhD in Computational Biology from the University of Maryland and National Cancer Institute, with a background in Bioengineering and Computer Science from the Indian Institute of Technology, Guwahati.
+Dr. Sanju Sinha leads our lab's research on computational methods to understand aging. He earned his PhD in Computational Biology from the University of Maryland and National Cancer Institute, with Dr. Eytan Ruppin and Dr. Brid Ryan. His Bachelor's is in Bioengineering from the Indian Institute of Technology, Guwahati.
 
 ### Dr. Mudra Choudhary, **Computational Biologist**
 <img src="/images/Mudra_headshot.jpg" width="400" height="auto" alt="Dr. Sanju Sinha">
 
 Dr. Choudhary is the developer of ecPath and currently focuses on applying computational methodologies and machine learning techniques to unravel the complex relationship between aging and cancer. Previously, she did her PhD breaking down RNA editing dysregulation in neuropsychiatric diseases at UCLA in the Xiao lab.
 
-### Sanmi Adileye, **Postdoc Fellow**
+### Sanmi Adeleye, **Postdoc Fellow**
 Sanmi did his PhD in Computer Science at the Contextual Robotics Institute at UC-San Diego. With experience at Robotics and Computer Vision, Sanmi brings advanced computer vision experience.
 
 ### Anamika Yadav, **Research Assistant**

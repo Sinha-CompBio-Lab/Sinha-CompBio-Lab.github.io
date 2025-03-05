@@ -1,58 +1,127 @@
 ---
 layout: archive
-title: "Resources"
+title: "Lab Resources"
 permalink: /resources/
 author_profile: true
 ---
 
-## Our Software and Tools
+{% include toc %}
 
-### ecPath
-A deep learning approach to detect ecDNA in tumors from histopathology images, making previously expensive analyses accessible through routine clinical data.
-Paper: https://www.biorxiv.org/content/10.1101/2024.11.13.623494v1
-Github: https://github.com/Sinha-CompBio-Lab/ecPATH
+## Overview
 
-### PERCEPTION
-A computational framework that predicts patient response and resistance to treatment using single-cell transcriptomics of tumor samples.
-Paper: https://www.nature.com/articles/s43018-024-00756-7
-Github: https://github.com/ruppinlab/PERCEPTION
+Our lab develops computational tools and curates resources to advance research at the intersection of cancer biology, aging, and computational methods. On this page, you'll find our lab-developed software, curated learning materials, and research guides.
 
-### TLPath
-A computational method to determine bulk-telomere length from standard H&E histopathology images. (unpublished)
+## Lab-Developed Software & Tools
 
-Our other resources
-## Machine Learning Resources for Aging Research
+<div class="tool-grid">
+  <div class="tool-card">
+    <h3>ecPath</h3>
+    <p>A deep learning approach that detects extrachromosomal DNA (ecDNA) in tumors from routine histopathology images, making previously expensive analyses accessible through standard clinical data.</p>
+    <div class="tool-links">
+      <a href="https://www.biorxiv.org/content/10.1101/2024.11.13.623494v1" class="btn btn--primary">Paper</a>
+      <a href="https://github.com/Sinha-CompBio-Lab/ecPATH" class="btn btn--primary">GitHub</a>
+    </div>
+  </div>
 
-Our lab develops and curates computational resources to advance aging research. Here are some key resources:
+  <div class="tool-card">
+    <h3>PERCEPTION</h3>
+    <p>A computational framework that predicts patient response and resistance to treatment using single-cell transcriptomics of tumor samples.</p>
+    <div class="tool-links">
+      <a href="https://www.nature.com/articles/s43018-024-00756-7" class="btn btn--primary">Paper</a>
+      <a href="https://github.com/ruppinlab/PERCEPTION" class="btn btn--primary">GitHub</a>
+    </div>
+  </div>
+</div>
 
-### Big Data Resources in Cancer & Aging Research
+## Cancer & Aging Research Resources
 
-We've compiled a comprehensive list of datasets, tools, and resources for researchers studying cancer and aging. These resources span genomics, transcriptomics, proteomics, and imaging data repositories.
+Our lab curates computational resources specifically designed for researchers working at the intersection of cancer and aging. These resources span multiple biological scales and computational approaches.
 
-[View Resources →](https://x.com/Sanjusinha7/status/1570729265519546368)
+### Data Resources & Methods Collections
 
-### Computational Methods for Spatial Transcriptomics
+<div class="resource-grid">
+  <div class="resource-card">
+    <h3>Big Data Resources in Cancer & Aging Research</h3>
+    <p>A comprehensive collection of datasets, tools, and resources spanning genomics, transcriptomics, proteomics, and imaging data repositories.</p>
+    <a href="https://x.com/Sanjusinha7/status/1570729265519546368" class="resource-link">View Resources <i class="fas fa-arrow-right"></i></a>
+  </div>
 
-Spatial transcriptomics is revolutionizing our understanding of tissue biology and aging. We've assembled guides and tools to help researchers get started with spatial transcriptomics techniques.
+  <div class="resource-card">
+    <h3>Computational Methods for Spatial Transcriptomics</h3>
+    <p>Guides and tools to help researchers implement spatial transcriptomics techniques, which are revolutionizing our understanding of tissue biology in aging and cancer.</p>
+    <a href="https://x.com/Sanjusinha7/status/1578434020643205120" class="resource-link">Learn More <i class="fas fa-arrow-right"></i></a>
+  </div>
 
-[Learn More →](https://x.com/Sanjusinha7/status/1578434020643205120)
+  <div class="resource-card">
+    <h3>Computational Methods to Probe the Immune System</h3>
+    <p>A collection of computational approaches specifically designed for analyzing immune system dynamics and their role in aging and cancer progression.</p>
+    <a href="https://x.com/Sanjusinha7/status/1576306476041515008" class="resource-link">Explore Methods <i class="fas fa-arrow-right"></i></a>
+  </div>
+</div>
 
-### Computational Methods to Probe the Immune System
+### Learning Resources & Research Directions
 
-The immune system plays a critical role in aging. We've created a collection of computational methods specifically designed for analyzing immune system dynamics.
+<div class="resource-grid">
+  <div class="resource-card">
+    <h3>Machine Learning for Biomedical Research</h3>
+    <p>A practical guide to implementing machine learning approaches in biomedical studies, with a focus on applications in aging and cancer research.</p>
+    <a href="https://x.com/Sanjusinha7/status/1589735781736001536" class="resource-link">View ML Resources <i class="fas fa-arrow-right"></i></a>
+  </div>
 
-[Explore Methods →](https://x.com/Sanjusinha7/status/1576306476041515008)
+  <div class="resource-card">
+    <h3>Open Questions in Aging Research</h3>
+    <p>Key unsolved questions at the intersection of aging and cancer that represent exciting opportunities for computational biologists.</p>
+    <a href="https://x.com/Sanjusinha7/status/1575529608174108672" class="resource-link">Explore Open Questions <i class="fas fa-arrow-right"></i></a>
+  </div>
+</div>
 
-### Machine Learning for Biomedical Research
+## Collaborations & Support
 
-We've developed a guide to help researchers implement machine learning approaches in biomedical studies, with a focus on applications in aging research.
+Interested in collaborating or need assistance with any of these resources? [Contact us](/contact/) to discuss potential research partnerships or technical support.
 
-[View ML Resources →](https://x.com/Sanjusinha7/status/1589735781736001536)
+<!-- CSS for styling resource cards and grids -->
+<style>
+.tool-grid, .resource-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
 
-### Open Questions in Aging Research
+.tool-card, .resource-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
 
-We've identified key unsolved questions at the intersection of aging and cancer that represent exciting opportunities for computational biologists.
+.tool-card:hover, .resource-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+}
 
-[Explore Open Questions →](https://x.com/Sanjusinha7/status/1575529608174108672)
+.tool-links {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
 
-[Contact us](/contact/) if you're interested in collaborating or need assistance with any of these resources.
+.resource-link {
+  display: inline-block;
+  margin-top: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #0066cc;
+}
+
+.resource-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .tool-grid, .resource-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>

@@ -6,31 +6,34 @@ author_profile: true
 ---
 
 <style>
-  .publication-section {
-    margin-bottom: 40px;
+  .publications-container {
+    margin-bottom: 30px;
   }
   
   .section-heading {
-    padding-bottom: 10px;
+    padding-bottom: 8px;
     border-bottom: 1px solid #e0e0e0;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     color: #333;
   }
   
-  .publication-item {
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    border-bottom: 1px solid #f0f0f0;
+  .pub-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 30px;
   }
   
-  .publication-item:last-child {
-    border-bottom: none;
+  .pub-item {
+    margin-bottom: 10px;
+    padding-left: 25px;
+    text-indent: -25px;
   }
   
-  .publication-title {
+  .pub-number {
+    display: inline-block;
+    width: 25px;
     font-weight: 600;
-    margin-bottom: 5px;
-    color: #222;
+    color: #333;
   }
   
   .author-highlight {
@@ -39,128 +42,95 @@ author_profile: true
   
   .journal {
     font-style: italic;
-    color: #555;
   }
   
   .pub-year {
-    display: inline-block;
-    margin-left: 5px;
     color: #666;
   }
   
   .scholar-link {
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
   }
   
   .scholar-button {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 8px 16px;
     border: 1px solid #e0e0e0;
     border-radius: 4px;
     color: #333;
     text-decoration: none;
-    font-weight: 500;
-  }
-  
-  .scholar-button:hover {
-    background-color: #f9f9f9;
+    font-size: 0.9em;
   }
 </style>
 
-<div class="publication-section">
+<div class="publications-container">
   <h2 class="section-heading">Precision Medicine & Computational Biology</h2>
+  <ol class="pub-list">
+    <li class="pub-item">
+      <span class="pub-number">1.</span> <span class="author-highlight">Sinha, S.</span>, Vegesna, R., Mukherjee, S., et al. PERCEPTION predicts patient response and resistance to treatment using single-cell transcriptomics of their tumors. <span class="journal">Nature Cancer</span>, <span class="pub-year">2024</span>.
+    </li>
+    <li class="pub-item">
+      <span class="pub-number">2.</span> Choudhary, M., Liu, L., Yadav, A., ... <span class="author-highlight">Sinha, S.</span> ecPath detects ecDNA in tumors from histopathology images. <span class="journal">bioRxiv</span> (Under revision in Nature), <span class="pub-year">2024</span>.
+    </li>
+    <li class="pub-item">
+      <span class="pub-number">3.</span> <span class="author-highlight">Sinha, S.</span>, Sinha, N. and Ruppin, E. Deep characterization of cancer drugs mechanism of action by integrating large-scale genetic and drug screens. <span class="journal">Biorxiv</span> (Revision in npj Precision Oncology), <span class="pub-year">2022</span>.
+    </li>
+  </ol>
   
-  <div class="publication-item">
-    <div class="publication-title">PERCEPTION predicts patient response and resistance to treatment using single-cell transcriptomics of their tumors</div>
-    <div><span class="author-highlight">Sinha, S.</span>, Vegesna, R., Mukherjee, S., et al. <span class="journal">Nature Cancer</span> <span class="pub-year">2024</span></div>
-  </div>
-  
-  <div class="publication-item">
-    <div class="publication-title">ecPath detects ecDNA in tumors from histopathology images</div>
-    <div>Choudhary, M., Liu, L., Yadav, A., ... <span class="author-highlight">Sinha, S.</span> <span class="journal">bioRxiv</span> (Under revision in Nature) <span class="pub-year">2024</span></div>
-  </div>
-  
-  <div class="publication-item">
-    <div class="publication-title">Deep characterization of cancer drugs mechanism of action by integrating large-scale genetic and drug screens</div>
-    <div><span class="author-highlight">Sinha, S.</span>, Sinha, N. and Ruppin, E. <span class="journal">Biorxiv</span> (Revision in npj Precision Oncology) <span class="pub-year">2022</span></div>
-  </div>
-</div>
-
-<div class="publication-section">
   <h2 class="section-heading">Genomic Editing & Cancer Mutations</h2>
+  <ol class="pub-list" start="4">
+    <li class="pub-item">
+      <span class="pub-number">4.</span> <span class="author-highlight">Sinha, S.</span>, Barbosa, K., Cheng, K., et al. A systematic genome-wide mapping of oncogenic mutation selection during CRISPR-Cas9 genome editing. <span class="journal">Nature Communications</span>, <span class="pub-year">2021</span>.
+    </li>
+  </ol>
   
-  <div class="publication-item">
-    <div class="publication-title">A systematic genome-wide mapping of oncogenic mutation selection during CRISPR-Cas9 genome editing</div>
-    <div><span class="author-highlight">Sinha, S.</span>, Barbosa, K., Cheng, K., et al. <span class="journal">Nature Communications</span> <span class="pub-year">2021</span></div>
-  </div>
-</div>
-
-<div class="publication-section">
   <h2 class="section-heading">Patient Stratification Technologies</h2>
+  <ol class="pub-list" start="5">
+    <li class="pub-item">
+      <span class="pub-number">5.</span> Lee, J.S., Nair, N.U., Dinstag, G., ... <span class="author-highlight">Sinha, S.</span>, et al. Synthetic lethality-mediated precision oncology via the tumor transcriptome. <span class="journal">Cell</span>, <span class="pub-year">2021</span>.
+    </li>
+    <li class="pub-item">
+      <span class="pub-number">6.</span> Ahmadi, S., Sukprasert, P., Vegesna, R., <span class="author-highlight">Sinha, S.</span>, et al. The landscape of receptor-mediated precision cancer combination therapy via a single-cell perspective. <span class="journal">Nature Communications</span>, <span class="pub-year">2022</span>.
+    </li>
+    <li class="pub-item">
+      <span class="pub-number">7.</span> Hoang, D.T., Dinstag, G., Shulman, E.D., ... <span class="author-highlight">Sinha, S.</span>, et al. A deep-learning framework to predict cancer treatment response from histopathology images through imputed transcriptomics. <span class="journal">Nature Cancer</span>, <span class="pub-year">2024</span>.
+    </li>
+  </ol>
   
-  <div class="publication-item">
-    <div class="publication-title">Synthetic lethality-mediated precision oncology via the tumor transcriptome</div>
-    <div>Lee, J.S., Nair, N.U., Dinstag, G., ... <span class="author-highlight">Sinha, S.</span>, et al. <span class="journal">Cell</span> <span class="pub-year">2021</span></div>
-  </div>
-  
-  <div class="publication-item">
-    <div class="publication-title">The landscape of receptor-mediated precision cancer combination therapy via a single-cell perspective</div>
-    <div>Ahmadi, S., Sukprasert, P., Vegesna, R., <span class="author-highlight">Sinha, S.</span>, et al. <span class="journal">Nature Communications</span> <span class="pub-year">2022</span></div>
-  </div>
-  
-  <div class="publication-item">
-    <div class="publication-title">A deep-learning framework to predict cancer treatment response from histopathology images through imputed transcriptomics</div>
-    <div>Hoang, D.T., Dinstag, G., Shulman, E.D., ... <span class="author-highlight">Sinha, S.</span>, et al. <span class="journal">Nature Cancer</span> <span class="pub-year">2024</span></div>
-  </div>
-</div>
-
-<div class="publication-section">
   <h2 class="section-heading">Tumor Mutation Burden & Immunotherapy</h2>
+  <ol class="pub-list" start="8">
+    <li class="pub-item">
+      <span class="pub-number">8.</span> Sinha, N., <span class="author-highlight">Sinha, S.</span>, Valero, C., et al. Immune determinants of the association between tumor mutational burden and immunotherapy response across cancer types. <span class="journal">Cancer Research</span>, <span class="pub-year">2022</span>.
+    </li>
+    <li class="pub-item">
+      <span class="pub-number">9.</span> Sinha, N., <span class="author-highlight">Sinha, S.</span>, Cheng, K., et al. Using a recently approved tumor mutational burden biomarker to stratify patients for immunotherapy may introduce a sex bias. <span class="journal">JCO Precision Oncology</span>, <span class="pub-year">2021</span>.
+    </li>
+  </ol>
   
-  <div class="publication-item">
-    <div class="publication-title">Immune determinants of the association between tumor mutational burden and immunotherapy response across cancer types</div>
-    <div>Sinha, N., <span class="author-highlight">Sinha, S.</span>, Valero, C., et al. <span class="journal">Cancer Research</span> <span class="pub-year">2022</span></div>
-  </div>
-  
-  <div class="publication-item">
-    <div class="publication-title">Using a recently approved tumor mutational burden biomarker to stratify patients for immunotherapy may introduce a sex bias</div>
-    <div>Sinha, N., <span class="author-highlight">Sinha, S.</span>, Cheng, K., et al. <span class="journal">JCO Precision Oncology</span> <span class="pub-year">2021</span></div>
-  </div>
-</div>
-
-<div class="publication-section">
   <h2 class="section-heading">Immunotherapy & Liquid Biopsies</h2>
+  <ol class="pub-list" start="10">
+    <li class="pub-item">
+      <span class="pub-number">10.</span> Cao, Y., Chang, T., Schischlik, F., ... <span class="author-highlight">Sinha, S.</span>, et al. Predicting tumor immune microenvironment and checkpoint therapy response of head & neck cancer patients from blood immune single-cell transcriptomics. <span class="journal">bioRxiv</span>, <span class="pub-year">2023</span>.
+    </li>
+    <li class="pub-item">
+      <span class="pub-number">11.</span> Wu, V.H., Yung, B.S., Faraji, F., ... <span class="author-highlight">Sinha, S.</span>, et al. The GPCR--Gαs--PKA signaling axis promotes T cell dysfunction and cancer immunotherapy failure. <span class="journal">Nature Immunology</span>, <span class="pub-year">2023</span>.
+    </li>
+  </ol>
   
-  <div class="publication-item">
-    <div class="publication-title">Predicting tumor immune microenvironment and checkpoint therapy response of head & neck cancer patients from blood immune single-cell transcriptomics</div>
-    <div>Cao, Y., Chang, T., Schischlik, F., ... <span class="author-highlight">Sinha, S.</span>, et al. <span class="journal">bioRxiv</span> <span class="pub-year">2023</span></div>
-  </div>
-  
-  <div class="publication-item">
-    <div class="publication-title">The GPCR--Gαs--PKA signaling axis promotes T cell dysfunction and cancer immunotherapy failure</div>
-    <div>Wu, V.H., Yung, B.S., Faraji, F., ... <span class="author-highlight">Sinha, S.</span>, et al. <span class="journal">Nature Immunology</span> <span class="pub-year">2023</span></div>
-  </div>
-</div>
-
-<div class="publication-section">
   <h2 class="section-heading">Cancer Disparities Research</h2>
-  
-  <div class="publication-item">
-    <div class="publication-title">Higher prevalence of homologous recombination deficiency in tumors from African Americans versus European Americans</div>
-    <div><span class="author-highlight">Sinha, S.</span>, Mitchell, K.A., Zingone, A., et al. <span class="journal">Nature Cancer</span> <span class="pub-year">2020</span></div>
-  </div>
-  
-  <div class="publication-item">
-    <div class="publication-title">A comprehensive map of alternative polyadenylation in African American and European American lung cancer patients</div>
-    <div>Zingone, A., <span class="author-highlight">Sinha, S.</span>, Ante, M., et al. <span class="journal">Nature Communications</span> <span class="pub-year">2021</span></div>
-  </div>
-  
-  <div class="publication-item">
-    <div class="publication-title">Recurrent PTPRT/JAK2 mutations in lung adenocarcinoma among African Americans</div>
-    <div>Mitchell, K.A., Nichols, N., Tang, W., ... <span class="author-highlight">Sinha, S.</span>, et al. <span class="journal">Nature Communications</span> <span class="pub-year">2019</span></div>
-  </div>
+  <ol class="pub-list" start="12">
+    <li class="pub-item">
+      <span class="pub-number">12.</span> <span class="author-highlight">Sinha, S.</span>, Mitchell, K.A., Zingone, A., et al. Higher prevalence of homologous recombination deficiency in tumors from African Americans versus European Americans. <span class="journal">Nature Cancer</span>, <span class="pub-year">2020</span>.
+    </li>
+    <li class="pub-item">
+      <span class="pub-number">13.</span> Zingone, A., <span class="author-highlight">Sinha, S.</span>, Ante, M., et al. A comprehensive map of alternative polyadenylation in African American and European American lung cancer patients. <span class="journal">Nature Communications</span>, <span class="pub-year">2021</span>.
+    </li>
+    <li class="pub-item">
+      <span class="pub-number">14.</span> Mitchell, K.A., Nichols, N., Tang, W., ... <span class="author-highlight">Sinha, S.</span>, et al. Recurrent PTPRT/JAK2 mutations in lung adenocarcinoma among African Americans. <span class="journal">Nature Communications</span>, <span class="pub-year">2019</span>.
+    </li>
+  </ol>
 </div>
 
 <div class="scholar-link">

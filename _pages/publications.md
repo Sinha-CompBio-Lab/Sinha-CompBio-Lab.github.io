@@ -12,8 +12,9 @@ author_profile: true
   
   .publication-theme {
     padding: 15px;
-    background-color: #f8f8f8;
-    border-left: 4px solid #0066cc;
+    background-color: #f5f5f5;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
     margin-bottom: 20px;
   }
   
@@ -24,16 +25,15 @@ author_profile: true
   
   .publication-item {
     margin-bottom: 15px;
-    padding-left: 20px;
-    border-left: 2px solid #e0e0e0;
-  }
-  
-  .publication-item:hover {
-    border-left-color: #0066cc;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #f9f9f9;
   }
   
   .publication-title {
     font-weight: 600;
+    margin-bottom: 5px;
   }
   
   .author-highlight {
@@ -62,20 +62,22 @@ author_profile: true
   .scholar-link a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #0066cc;
-    color: white;
+    background-color: #f5f5f5;
+    color: #333;
     text-decoration: none;
     border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    font-weight: 500;
   }
   
   .scholar-link a:hover {
-    background-color: #0055aa;
+    background-color: #eaeaea;
   }
 </style>
 
 <div class="publication-section">
   <div class="publication-theme">
-    <h2>🧬 Precision Medicine & Computational Biology</h2>
+    <h2>Precision Medicine & Computational Biology</h2>
   </div>
   
   <div class="publication-item">
@@ -96,7 +98,7 @@ author_profile: true
 
 <div class="publication-section">
   <div class="publication-theme">
-    <h2>🧪 Genomic Editing & Cancer Mutations</h2>
+    <h2>Genomic Editing & Cancer Mutations</h2>
   </div>
   
   <div class="publication-item">
@@ -107,7 +109,7 @@ author_profile: true
 
 <div class="publication-section">
   <div class="publication-theme">
-    <h2>👥 Patient Stratification Technologies</h2>
+    <h2>Patient Stratification Technologies</h2>
   </div>
   
   <div class="publication-item">
@@ -128,7 +130,7 @@ author_profile: true
 
 <div class="publication-section">
   <div class="publication-theme">
-    <h2>🔄 Tumor Mutation Burden & Immunotherapy</h2>
+    <h2>Tumor Mutation Burden & Immunotherapy</h2>
   </div>
   
   <div class="publication-item">
@@ -144,7 +146,7 @@ author_profile: true
 
 <div class="publication-section">
   <div class="publication-theme">
-    <h2>💉 Immunotherapy & Liquid Biopsies</h2>
+    <h2>Immunotherapy & Liquid Biopsies</h2>
   </div>
   
   <div class="publication-item">
@@ -160,7 +162,7 @@ author_profile: true
 
 <div class="publication-section">
   <div class="publication-theme">
-    <h2>🔬 Cancer Disparities Research</h2>
+    <h2>Cancer Disparities Research</h2>
   </div>
   
   <div class="publication-item">
@@ -178,7 +180,6 @@ author_profile: true
     <div>Mitchell, K.A., Nichols, N., Tang, W., ... <span class="author-highlight">Sinha, S.</span>, et al. <span class="journal">Nature Communications</span> <span class="pub-year">2019</span></div>
   </div>
 </div>
-
 
 <div class="scholar-link">
   <a href="https://scholar.google.com/citations?user=XXXXXXXXXXXX" target="_blank">View Complete Publication List on Google Scholar</a>

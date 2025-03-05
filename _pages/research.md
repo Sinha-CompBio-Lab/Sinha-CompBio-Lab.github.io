@@ -11,7 +11,7 @@ author_profile: true
     padding: 25px;
     border-radius: 8px;
     margin-bottom: 40px;
-    border-left: 4px solid #0066cc;
+    border-left: 1px solid #e0e0e0;
   }
   
   .research-overview h2 {
@@ -27,14 +27,14 @@ author_profile: true
   }
   
   .area-header {
-    background-color: #0066cc;
-    color: white;
+    background-color: #f5f5f5;
     padding: 15px 20px;
+    border-bottom: 1px solid #e0e0e0;
   }
   
   .area-header h2 {
     margin: 0;
-    color: white;
+    color: #333;
   }
   
   .area-content {
@@ -55,10 +55,10 @@ author_profile: true
   }
   
   .project-card {
-    background-color: #f5f5f5;
+    background-color: #f9f9f9;
     padding: 20px;
     border-radius: 8px;
-    border-left: 3px solid #0066cc;
+    border: 1px solid #e0e0e0;
   }
   
   .project-card h3 {
@@ -74,15 +74,16 @@ author_profile: true
   .team-link a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #0066cc;
-    color: white;
+    background-color: #f5f5f5;
+    color: #333;
     text-decoration: none;
     border-radius: 4px;
     font-weight: 500;
+    border: 1px solid #e0e0e0;
   }
   
   .team-link a:hover {
-    background-color: #0055aa;
+    background-color: #eaeaea;
   }
 </style>
 

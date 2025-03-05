@@ -33,23 +33,35 @@
     "vendor/magnific-popup/magnific-popup"
 ;
 
-/* Custom CSS to fix sidebar text overflow */
-.author__urls-wrapper {
-  width: auto;
-  min-width: 270px;
+/* Add this to the end of your main.scss file */
+
+/* Fix for sidebar text overflow - especially institution name */
+.sidebar .author__urls-wrapper {
   max-width: 100%;
 }
 
-.author__urls {
+.sidebar .author__urls {
   word-break: break-word;
-  font-size: 0.9em;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
-.sidebar .author__name, 
-.sidebar .author__bio,
-.sidebar p,
-.sidebar a {
-  word-wrap: break-word;
-  overflow-wrap: break-word;
+/* Target institution specifically - this might need adjustment based on your theme's exact class names */
+.sidebar .fa-fw + a,
+.sidebar .fas + a, 
+.sidebar .far + a,
+.sidebar .fab + a {
+  display: inline-block;
+  max-width: 150px; /* Force narrow width */
+  vertical-align: top;
   word-break: break-all;
+  overflow-wrap: break-word;
+}
+
+/* For extremely long words that won't break */
+.sidebar a {
+  word-break: break-all !important;
+  overflow-wrap: break-word !important;
+  display: inline-block;
+  max-width: 170px;
 }
